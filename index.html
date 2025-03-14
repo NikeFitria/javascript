@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fawzi Sayed - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hover-effect:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            border: 5px solid #ffa500;
+        }
+        .portfolio .btn {
+            background-color: #ff69b4;
+            color: white;
+            border-radius: 20px;
+            margin: 5px;
+        }
+        .icon {
+            color: #ff69b4;
+            margin-right: 10px;
+        }
+        .btn-pink {
+            background-color: #ff69b4;
+            color: #fff;
+        }
+        .text-pink {
+            color: #ff69b4 !important;
+        }
+        body {
+            background-color: #ffebf7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center my-5">
+        <img src="gambar.png" class="profile-img" alt="Profile">
+        <h1>Hi, I am <span class="text-pink">Nike Fitria</span></h1>
+        <h2>Web Developer</h2>
+        <p>"Halo! Saya Nike Fitria 👋"
+
+            Seorang Web Developer yang berfokus pada Backend  Development dengan pengalaman dalam membangun website yang cepat, responsif, dan user-friendly. Saya memiliki passion dalam menciptakan pengalaman digital yang luar biasa melalui kode yang bersih dan efisien.</p>
+        <button class="btn btn-pink" data-bs-toggle="modal" data-bs-target="#hireMeModal">Hire Me</button>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="container my-5">
+        <h3 class="text-center">About Me</h3>
+        <p class="text-center">Saya telah berkecimpung di dunia web development selama [jumlah tahun] tahun, dengan keahlian utama dalam [teknologi utama, misal: JavaScript, React, Node.js]. Saya senang mengubah ide menjadi solusi digital yang fungsional, baik itu website, aplikasi web, maupun sistem berbasis cloud.</p>
+<p>Saat ini, saya bekerja sebagai freelancer, membantu bisnis dan startup dalam membangun produk digital yang berkualitas.</p>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="portfolio text-center my-5">
+        <h2>My Projects</h2>
+        <p>💻 Pengembangan Web – HTML, CSS, JavaScript, React
+            🎨 Desain UI/UX – Figma, Adobe XD
+            📈 Digital Marketing – SEO, Content Strategy
+            🚀 Problem Solving & Teamwork</p>
+        <div class="btn-group">
+            <button class="btn">All</button>
+            <button class="btn">UI/UX</button>
+            <button class="btn">Web Design</button>
+            <button class="btn">App Design</button>
+            <button class="btn">Graphic Design</button>
+        </div>
+
+    <div class="container my-5">
+        <h3 class="text-center">My Projects</h3>
+        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://whello.id/wp-content/uploads/2022/08/contoh-desain-website-zyro.png" class="d-block w-100 hover-effect" alt="Project 1">
+                    <div class="carousel-caption">
+                        <h5>AirCooling Landing Page Design</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://mykomlab.com/wp-content/uploads/2021/07/PBS-1024x495.png" class="d-block w-100 hover-effect" alt="Project 2">
+                    <div class="carousel-caption">
+                        <h5>Business Landing Page Design</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://meson-digital.com/wp-content/uploads/2024/06/website-dribbble.jpg" class="d-block w-100 hover-effect" alt="Project 3">
+                    <div class="carousel-caption">
+                        <h5>Ecom Web Page Design</h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#projectCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#projectCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+    
+    <!-- Hire Me Modal -->
+    <div class="modal fade" id="hireMeModal" tabindex="-1" aria-labelledby="hireMeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="hireMeModalLabel">Hire Me</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Jika tertarik untuk bekerja sama atau sekadar ngobrol, jangan ragu untuk menghubungi saya! 🚀
+                    <p>📩 Email: [nikeftrr7@gmail.com]</p>
+                    <p>🔗 LinkedIn: [https://www.linkedin.com/in/nike-fitria-019904350/]</p>
+                    <p>💼 Portofolio: [https://github.com/NikeFitria]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
